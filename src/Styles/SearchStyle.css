@@ -6,6 +6,7 @@
      
 }
 
+
 nav{
     background-color: rgb(248, 226, 198);
     width: 100%;
@@ -39,6 +40,11 @@ nav ul li a{
     font-weight: bold;
 }
 
+.image-back img{
+    max-width: 100%;
+    height: auto;
+    position: absolute;
+}
 
 .card-content {
     background-color: rgb(252, 236, 214);
@@ -50,20 +56,23 @@ nav ul li a{
 }
 
 .search-container{
-    width: 50%;
-    height: 200px;
-    position: relative;
+    width: 56%;
+    height: 240px;
     padding: 24px;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color:rgb(252, 236, 214);
+    background-color: rgb(252, 236, 214);
+    opacity: 0.9;
     border-radius: 34px;
+    position: relative;
 
 }
 
 .Search-title {
-    color: rgb(248, 226, 198);
+    color: rgb(245, 200, 141);
     padding: 20px;
-
+    margin-top: 10%;
+    margin-left: 4%;
+    position: relative;
 }
