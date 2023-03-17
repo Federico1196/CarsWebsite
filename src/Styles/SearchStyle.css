@@ -53,7 +53,7 @@ nav ul li a{
 .card-content{
     backdrop-filter: blur(18px);
     border: solid;
-    border-color: grey;
+    border-color: rgb(207, 207, 207);
     border-radius: 24px;
     width: 50vw;
     height: 34vh;
