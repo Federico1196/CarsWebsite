@@ -18,33 +18,39 @@
             </ul>
         </nav>
         <div class="card-content"> 
-            <select id="Select Make" class="selectInput" name="selectedMakeId" >
-                <option value="1">Acura</option>
-                <option value="2">Aston Martin</option>
-                <option value="3">Audi</option>
-                <option value="4">BMW</option>
-                <option value="5">Bugatti</option>
-                <option value="6">Chevrolet</option>
-                <option value="7">Dodge</option>
-                <option value="8">Ferrari</option>
-                <option value="9">Ford</option>
-                <option value="10">Honda</option>
-                <option value="11">Jaguar</option>
-                <option value="12">Lamborghini</option>
-                <option value="13">Lexus</option>
-                <option value="14">Maserati</option>
-                <option value="15">McLaren</option>
-                <option value="16">Mercedes-Benz</option>
-                <option value="16">Nissan</option>
-                <option value="18">Pagani</option>
-                <option value="19">Porsche</option>
-                <option value="20">Tesla</option>
-                <option value="21">Toyota</option>
-                <option value="22">Koenigsegg</option>         
-            </select>
-        
-            <select id="Select Model" class="selectInput" disabled="" name="selectedModelId"        aria-label="Select Model" data-cg-ft="search-model-picker">
-                <option>All Models</option><optgroup label="Popular Models"></optgroup><optgroup label="Other Models"></optgroup></select>   
+            <h1 class="searc-title">Search by Make & Model</h1>
+            
+            <div class="select-container">
+                <p class="make-text">Make: </p>
+                <select id="Select Make" class="selectInput" name="selectedMakeId" >
+                    <option value="1">Acura</option>
+                    <option value="2">Aston Martin</option>
+                    <option value="3">Audi</option>
+                    <option value="4">BMW</option>
+                    <option value="5">Bugatti</option>
+                    <option value="6">Chevrolet</option>
+                    <option value="7">Dodge</option>
+                    <option value="8">Ferrari</option>
+                    <option value="9">Ford</option>
+                    <option value="10">Honda</option>
+                    <option value="11">Jaguar</option>
+                    <option value="12">Lamborghini</option>
+                    <option value="13">Lexus</option>
+                    <option value="14">Maserati</option>
+                    <option value="15">McLaren</option>
+                    <option value="16">Mercedes-Benz</option>
+                    <option value="16">Nissan</option>
+                    <option value="18">Pagani</option>
+                    <option value="19">Porsche</option>
+                    <option value="20">Tesla</option>
+                    <option value="21">Toyota</option>
+                    <option value="22">Koenigsegg</option>         
+                </select>
+                <p class="models-text">Model: </p>
+                <select id="Select Model" class="selectInput" disabled="" name="selectedModelId"        aria-label="Select Model" data-cg-ft="search-model-picker">
+                    <option>All Models</option><optgroup label="Popular Models"></optgroup><optgroup label="Other Models"></optgroup>
+                </select>   
+            </div>
         </div>
         
         <video autoplay loop muted plays-inline class="myVideo">
