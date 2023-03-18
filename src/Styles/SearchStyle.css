@@ -85,4 +85,11 @@ nav ul li a{
 
 .card-content select{
     padding: 2%;
+    appearance: none;
+    border: none;
+    background-color: rgba(4, 4, 4, 0.5);
+    color: aliceblue;
+    text-align: center;
+    font-size: medium;
+
 }
