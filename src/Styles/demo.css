@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     
+}
+
+
+nav{
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    background-color: rgb(86, 86, 86);
+    width: 100%;
+    height: 54px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2px 4%;
+}
+
+
+nav .logo {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+
+}
+
+nav ul li{
+   list-style: none;
+   display: inline-block;
+   margin-left: 30px;  
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+.myVideo{
+    position: absolute;
+    width: 100%;
+    top: 35px;
+    right: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.card-content{
+    backdrop-filter: blur(16px);
+    border: solid;
+    border-color: rgb(207, 207, 207);
+    border-radius: 24px;
+    width: 50vw;
+    height: 59vh;
+    padding: 24px;
+    margin: 10% auto;
+}
+
+.card-content h1 {
+    color: rgb(237, 237, 237);
+    padding: 20px;
+    margin-top: 0;
+    font-size: 40px;
+    text-align: center;
+    margin: 2%;
+}
+
+
+.container{
+    text-align: center;
+}
+
+.container h2{
+    font-size: 2vw;
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 40px;
+    letter-spacing: 1.2px;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+}
+
+form select{
+    width: 450px;
+    padding: 15px;
+    padding-left: 10px;
+    background-color: #fff;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    font-size: 1.2rem;
+    box-shadow: 0 5px 10px 0 rgb(0,0,0,0.25);
+    cursor: pointer;
+}
+
+.container p {
+    font-weight: bold;
+    border-radius: 14px;
+    background-color: #007f80;
+    width: 14vw;
+    height: 8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 36%;
+    margin-top: 5%;
+    color: white;
+    font-size: 18px;
+
+}
