@@ -103,7 +103,7 @@ form select{
     cursor: pointer;
 }
 
-.container p {
+.card-content a{
     font-weight: bold;
     border-radius: 14px;
     background-color: #007f80;
@@ -116,5 +116,5 @@ form select{
     margin-top: 5%;
     color: white;
     font-size: 18px;
-
+    text-decoration: none;
 }

@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+nav{
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    background-color: rgb(86, 86, 86);
+    width: 100%;
+    height: 54px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2px 4%;
+}
+
+
+nav .logo {
+    text-decoration: none;
+    font-style: italic;
+    font-size: 28px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    margin-right: 46%;
+}
+
+nav .home{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    height: 20%;
+    margin: 0 -2% 1%;
+
+}
+
+image {
+    position: absolute;
+    width: 100%;
+    right: 0;
+    left: 0;
+    z-index: -1;
+}
+
+
+.container {
+    backdrop-filter: blur(16px);
+    border: solid;
+    border-color: rgb(207, 207, 207);
+    border-radius: 24px;
+    width: 46vw;
+    height: 47vh;
+    padding: 17px;
+    margin: 15% auto;
+}
+
+.card-content img{
+    border-radius: 56%;
+    width: 34%;
+    position: fixed;
+    margin: -52% 27%;
+    border: solid;
+    border-width: thick;
+}
+
+.card-content .myInfo{
+    margin: 35% 14%;
+}
+
+.myInfo h1{
+    font-style: italic;
+
+}
+
+.myInfo p{
+    display: flex;
+    justify-content: center;
+}
+
+.myInfo .social {
+    margin-top: 4%;
+    display: block;
+}
+
+.myInfo .social ul li{
+    list-style: none;
+
+}
+
+.myInfo .social ul li a{
+    text-decoration: none;
+
+}
+
+
+
